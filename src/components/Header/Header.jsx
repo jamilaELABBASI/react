@@ -2,6 +2,7 @@
 import React from 'react';
 import './Header.css';  // Assuming you have some CSS for styling
 
+
 function Header(){
   return (
     <header className="header">
@@ -10,9 +11,10 @@ function Header(){
           </div>
           <nav className="navigation">
             <ul>
-              <li><a href="#boards">Boards</a></li>
-              <li><a href="#templates">Templates</a></li>
-              <li><a href="#home">Home</a></li>
+              <li><a href="projects">Projects</a></li>
+              <li><a href="teams">Teams</a></li>
+              <li><a href="users">Users</a></li>
+              <li><a href="tasks">Tasks</a></li>
             </ul>
           </nav>
           
